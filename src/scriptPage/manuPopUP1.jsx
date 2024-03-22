@@ -3,13 +3,13 @@ import popimg2 from '../assets/tamil_manu_bina.jpeg'
 import popimg1 from '../assets/tamil_manu.jpeg'
 
 
-export default function manuPopUP() {
+export default function manuPopUP1() {
     return(
         <>
             
 
             <div className={styles.pageContainer}>
-                <div className={styles.popUpContainer}>THIRUKURAL</div>
+                <div className={styles.popUpContainer}>THOLKAPIYAM</div>
                 <div className={styles.popUpImg1Container}>
                     <img src={popimg2} className={styles.subImage} />
                     <img src={popimg1} className={styles.subImage} />

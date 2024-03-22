@@ -58,16 +58,17 @@ input:focus{
 }
 .searchResult{
     border: 1px solid white;
+    border-radius: 12px;
     height: 80px;
     padding: 10px;
     background-color: transparent;
 }
 
 .dataResult :hover {
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.993);
-  transition: 0.1s;
-  transform: scale(1.03);
-  background-color:rgba(255, 255, 255, 0.1) ;
+  /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.993); */
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
+  /* background-color:rgba(255, 255, 255, 0.1) ; */
 } 
 .disabled_hover {
  
@@ -77,6 +78,18 @@ input:focus{
 
 
 .modal,
+.overlay {
+  background-color: rgba(0, 0, 0, 0.364);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.modal1,
 .overlay {
   background-color: rgba(0, 0, 0, 0.364);
   width: 100vw;

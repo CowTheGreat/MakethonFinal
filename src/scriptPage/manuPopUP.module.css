@@ -1,7 +1,7 @@
 .pageContainer {
   box-sizing: border-box;
     width: 60vw;
-    /* height: 50vh; */
+    height: 50vh;
     margin: 10% 20%;
     /* bottom: 10px; */
     background-image: linear-gradient(
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     /* padding: 10px 100px; */
-    padding: 130px 75px;
+    padding: 30px 75px;
     opacity: 1; 
   }
   
@@ -42,7 +42,8 @@
   justify-content: center;
 }
 
-/* .popUpImg1Container{
+.popUpImg1Container{
+  margin: 0px 0px;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
-} */
+  grid-template-columns: repeat(2,1fr);
+}
