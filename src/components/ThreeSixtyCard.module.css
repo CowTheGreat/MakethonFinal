@@ -128,13 +128,6 @@
   justify-content: center;
 }
 
-/* .overlay {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
 .modalContent {
   position: absolute;
   top: 40%;
