@@ -1,7 +1,6 @@
 .pageContainer {
   width: 90vw;
   height: 90vh;
-  margin: 0;
   bottom: 10px;
   background-image: linear-gradient(
     to bottom right,
@@ -12,60 +11,14 @@
     #1f0854
   );
   border-radius: 33px;
-  display: flex;
-  align-items: center;
   margin-bottom: 50px;
-}
-
-.textContainer {
-  color: white;
-  width: 50%;
-  padding-left: 40px;
-}
-
-.desc {
-  font-size: 18px;
-  margin-bottom: 70px;
-}
-
-.welcome {
-  font-size: 36px;
-  font-weight: 600;
-  font-family: "Gill Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.archiveButton {
-  background-color: azure;
-  height: 60px;
-  width: 200px;
-  border-radius: 25px;
-  color: rgb(19, 7, 46);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 545;
-  border: 0 50px;
-}
-
-.welcomeStatue {
-  height: 100%;
-  width: 50%;
-  padding-left: 150px;
+  box-shadow: #1f0854 10px;
 }
 
 .pageBG {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.btnModal {
-  padding: 10px 20px;
-  display: block;
-  margin: 100px auto 0;
-  font-size: 18px;
 }
 
 .modal,

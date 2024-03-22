@@ -1,11 +1,7 @@
-import ThreeDimension from "../components/ThreeDimension";
+import SculpturesCards from "../components/SculpturesCards";
 
 function Sculptures() {
-  return (
-    <>
-      <ThreeDimension />
-    </>
-  );
+  return <SculpturesCards />;
 }
 
 export default Sculptures;

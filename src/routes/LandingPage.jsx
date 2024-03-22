@@ -6,8 +6,8 @@ function LandingPage() {
   return (
     <>
       <Landing1 />
-      {/* <LandingAR /> */}
-      {/* <LandingManuscript /> */}
+      <LandingAR />
+      <LandingManuscript />
     </>
   );
 }
