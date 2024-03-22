@@ -1,7 +1,9 @@
+import ManuPage from "../scriptPage/manuPage";
+
 function Manuscripts() {
   return (
     <>
-      <h1>Manuscripts</h1>
+      <ManuPage />
     </>
   );
 }

@@ -1,18 +1,20 @@
 import Classes from "../components/LandingManuscript.module.css";
-import AncientTL from "../assets/AncientTL.jpg";
+import threesixty from "../assets/360tour.jpeg";
 import manuscript1 from "../assets/manuscript_1.jpeg";
 import manuscript2 from "../assets/manuscript_2.jpeg";
 import manuscript3 from "../assets/manuscript_3.jpeg";
 import { Link } from "react-router-dom";
 
-function LandingManuscript() {
+function LandingTour() {
   return (
     <div className={Classes.pageBG}>
       <div className={Classes.pageContainer}>
-        <div className={Classes.title}>Manuscripts</div>
-        <div className={Classes.imgContainer}>
-          <img src={AncientTL} className={Classes.image} />
+        <div className={Classes.title}>
+          <div className={Classes.imgContainer}>
+            <img src={threesixty} className={Classes.image} />
+          </div>
         </div>
+
         <div className={Classes.bottomContainer}>
           <div className={Classes.descBox}>
             <div className={Classes.desc}>
@@ -23,7 +25,7 @@ function LandingManuscript() {
               manuscripts from the sixth century A.D., were brought from Kashmir
               to the National Archives of India to be preserved for
             </div>
-            <Link to="/manuscripts">
+            <Link to="/threesixty">
               <div className={Classes.button}>Learn More</div>
             </Link>
           </div>
@@ -42,4 +44,4 @@ function LandingManuscript() {
   );
 }
 
-export default LandingManuscript;
+export default LandingTour;

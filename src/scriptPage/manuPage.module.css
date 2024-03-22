@@ -1,0 +1,110 @@
+.containerManuscripts{
+    width: 90vw; 
+    height: 90vh;
+    margin: 0 30px;
+    bottom: 10px;
+    
+    /* border-radius: 33px;    */
+    background-image: linear-gradient(
+      to bottom right,
+      #5c3aa9,
+      #502f9b,
+      #43228c,
+      #230a5c,
+      #1f0854
+    );
+  }
+
+.containerPara{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px;
+
+}
+
+.paragraph{
+    height: 150px;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    /* background-color: red; */
+}
+
+.buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+}
+
+.manuButton{
+    height: 100px;
+    width: 250px;
+    border-radius: 8px;
+    color: black;
+    font-family: sans-serif;
+    margin: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img{
+    height: 200px;
+    width: 600px;
+    margin: 20px;
+
+}
+
+.searchCard{
+    border: 1px solid black;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+
+.searchBar input{
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px 0px;
+    height: 30px;
+    width: 100%;
+    /* margin: 20px 0px; */
+    display: flex;
+    justify-content: flex-start;
+}
+.searchIcon{
+    background-color: white;
+    height: 60px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    color: black;
+    /* margin: 20px 0px; */
+    
+}
+input:focus{
+    outline: none;
+}
+.searchResult{
+    border: 1px solid white;
+    background-color: black;
+}
+
+ 
