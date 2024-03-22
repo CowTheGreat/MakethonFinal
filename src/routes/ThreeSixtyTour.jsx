@@ -1,9 +1,9 @@
-import ThreeSixty from "../components/ThreeSixty";
+import ThreeSixtyCard from "../components/ThreeSixtyCard";
 
 function ThreeSixtyTour() {
   return (
     <>
-      <ThreeSixty />
+      <ThreeSixtyCard />
     </>
   );
 }
