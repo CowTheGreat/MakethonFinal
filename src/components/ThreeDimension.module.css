@@ -1,0 +1,57 @@
+.pageContainer {
+  width: 90vw;
+  height: 90vh;
+  margin: 0;
+  bottom: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    #5c3aa9,
+    #502f9b,
+    #43228c,
+    #230a5c,
+    #1f0854
+  );
+  border-radius: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.pageBG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content {
+  width: 40%;
+}
+
+.iframeContainer {
+  width: 40%;
+  height: 480px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 50%;
+}
+
+.iframe {
+  width: 90%;
+  height: 90%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 22px;
+  margin-bottom: 20px;
+}

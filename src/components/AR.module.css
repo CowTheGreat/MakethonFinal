@@ -1,0 +1,11 @@
+.ARframe {
+  width: 800px;
+  height: 500px;
+}
+
+.ARcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
