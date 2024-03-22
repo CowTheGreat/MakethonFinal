@@ -9,58 +9,98 @@ function ExploreArchive() {
         <div id="cards-container">
           <div class="earow">
             <Link to="/manuscripts">
-              <div className="card" id="card1">
-                <div className="overlay">
-                  <h4>Manuscripts</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, tempore doloremque repellendus quia tempora et ea
-                    reiciendis eaque qui obcaecati non voluptate eos minus enim
-                    laudantium voluptas porro mollitia odio!
-                  </p>
+              <div class="flip-card" id="card1">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back">
+                    <h1>Manuscripts</h1>
+                    <p>
+                      Explore the rich heritage of Ancient Tamil civilization
+                      through our meticulously curated manuscript archive. Delve
+                      into centuries-old texts, each a window into the profound
+                      wisdom, literature, and cultural legacy of Tamil Nadu
+                    </p>
+                  </div>
                 </div>
               </div>
             </Link>
             <Link to="/threesixty">
-              <div className="card" id="card2">
+              <div class="flip-card" id="card2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back">
+                    <h1>3D Model</h1>
+                    <p>
+                      Step into a world where stone speaks volumes. Our
+                      sculpture archive showcases the enduring artistry of
+                      Ancient Tamil craftsmen. Discover intricately carved
+                      masterpieces that embody the stories, beliefs, and
+                      aesthetics of a bygone era.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="card" id="card2">
                 <div className="overlay">
                   <h4>360 Virtual tour</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Omnis velit rerum nihil praesentium tempora unde voluptatem
-                    aut, quidem alias aliquid, possimus architecto aspernatur
-                    earum laudantium culpa quisquam quaerat, autem vero.
+                    Step into a world where stone speaks volumes. Our sculpture
+                    archive showcases the enduring artistry of Ancient Tamil
+                    craftsmen. Discover intricately carved masterpieces that
+                    embody the stories, beliefs, and aesthetics of a bygone era.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </Link>
           </div>
           <div class="earow">
             <Link to="/sculptures">
-              <div className="card" id="card3">
-                <div className="overlay">
-                  <h4>3D Model</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Necessitatibus assumenda quisquam earum aut sunt unde fuga
-                    alias obcaecati nam! Recusandae eligendi velit perferendis
-                    voluptatibus minus sunt animi tenetur enim pariatur?
-                  </p>
+              <div class="flip-card" id="card3">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back">
+                    <h1>360 Virtual Tour</h1>
+                    <p>
+                      Embark on a virtual pilgrimage through the sacred temples
+                      of Tamil Nadu with our immersive 360-degree views. Explore
+                      every architectural marvel, intricate detail, and
+                      spiritual ambiance, bringing the essence of these revered
+                      sites directly to your screen
+                    </p>
+                  </div>
                 </div>
               </div>
             </Link>
             <Link to="/ar">
-              <div className="card" id="card4">
-                <div className="overlay">
-                  <h4>Augmented Reality</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione impedit harum velit incidunt ducimus eos architecto
-                    sint, cumque id itaque. Quis aliquam rerum ad exercitationem
-                    suscipit, voluptas veritatis nemo recusandae?
-                  </p>
+              <div class="flip-card" id="card4">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front"></div>
+                  <div class="flip-card-back">
+                    <h1>Augmented Reality</h1>
+                    <p>
+                      Step into the divine realm of Tamil Nadu's temples like
+                      never before with our cutting-edge Augmented Reality (AR)
+                      templates. Experience the grandeur and spirituality of
+                      these ancient wonders in the palm of your hand, as history
+                      blends seamlessly with modern technology
+                    </p>
+                  </div>
                 </div>
               </div>
+              {/* <div className="card" id="card4">
+                <div className="overlay">
+                  <div className="overlay_inner">
+                    <h4>Augmented Reality</h4>
+                    <p>
+                      Step into the divine realm of Tamil Nadu's temples like
+                      never before with our cutting-edge Augmented Reality (AR)
+                      templates. Experience the grandeur and spirituality of
+                      these ancient wonders in the palm of your hand, as history
+                      blends seamlessly with modern technology
+                    </p>
+                  </div>
+                </div>
+              </div> */}
             </Link>
           </div>
         </div>

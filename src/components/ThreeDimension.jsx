@@ -23,7 +23,7 @@ function ThreeDimension() {
           </div>
           <div className={Classes.iframeContainer}>
             <iframe
-              src="https://3dviewer.net/embed.html#model=https://filebin.net/foiglhf24ypxy0gy/pullai2.obj$camera=-0.66776,0.02843,1.61527,-0.15906,0.42587,-0.03450,-0.22655,-0.95205,-0.20562,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
+              src="https://3dviewer.net/embed.html#model=https://dl.dropbox.com/scl/fi/h5wucwz8hlnb0k1t0gity/natu.obj?rlkey=aa8nl8m13cfgbv4hv9mtk2ees&dl=0$camera=-3.84276,-6.95871,-3.72466,-0.13258,-0.66154,-2.65522,-0.22917,-0.03021,0.97292,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
               className={Classes.iframe}
             ></iframe>
           </div>
@@ -33,7 +33,7 @@ function ThreeDimension() {
         <div className={Classes.pageContainer}>
           <div className={Classes.iframeContainer}>
             <iframe
-              src="https://3dviewer.net/embed.html#model=https://filebin.net/foiglhf24ypxy0gy/pullai2.obj$camera=-0.66776,0.02843,1.61527,-0.15906,0.42587,-0.03450,-0.22655,-0.95205,-0.20562,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
+              src="https://3dviewer.net/embed.html#model=https://dl.dropbox.com/scl/fi/oct39nkcv8ugd96b24g6z/budh.obj?rlkey=qngj4ng1t0aekx3jsq6wc9rx7&dl=0$camera=-1.36417,0.49549,0.57538,0.27698,0.81716,0.47229,0.05706,0.02874,0.99796,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
               className={Classes.iframe}
             ></iframe>
           </div>
@@ -74,7 +74,7 @@ function ThreeDimension() {
           </div>
           <div className={Classes.iframeContainer}>
             <iframe
-              src="https://3dviewer.net/embed.html#model=https://filebin.net/foiglhf24ypxy0gy/pullai2.obj$camera=-0.66776,0.02843,1.61527,-0.15906,0.42587,-0.03450,-0.22655,-0.95205,-0.20562,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
+              src="https://3dviewer.net/embed.html#model=https://dl.dropbox.com/scl/fi/j8nf0ynjugnq4ig0rcf23/pullai2.obj?rlkey=cskg28o0gewsb5uqeqyw2q9xn&dl=0$camera=-0.77554,-0.21141,1.15715,-0.12291,0.37767,-0.01360,0.19750,-0.91549,-0.35054,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
               className={Classes.iframe}
             ></iframe>
           </div>
@@ -84,7 +84,7 @@ function ThreeDimension() {
         <div className={Classes.pageContainer}>
           <div className={Classes.iframeContainer}>
             <iframe
-              src="https://3dviewer.net/embed.html#model=https://filebin.net/foiglhf24ypxy0gy/pullai2.obj$camera=-0.66776,0.02843,1.61527,-0.15906,0.42587,-0.03450,-0.22655,-0.95205,-0.20562,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
+              src="https://3dviewer.net/embed.html#model=https://filebin.net/foiglhf24ypxy0gy/Mia_006224_Somaskanda_100k.obj$camera=-3.91045,-0.59882,-1.39313,-3.66855,-0.91983,-2.69349,0.25028,0.94800,-0.19660,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=42,43,46,255$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=off,0,0,0,1"
               className={Classes.iframe}
             ></iframe>
           </div>
@@ -104,9 +104,7 @@ function ThreeDimension() {
               Shiva originated during the 6th-8th centuries CE during the period
               of the Pallava in South India. The representation shows Shiva with
               four arms and Uma (Parvati), and between them the infant Skanda
-              (Murugan) is shown as dancing with ecstasy. Over a period of time,
-              a number of such depictions have been discovered from different
-              regions that were once under the control of Pallavas.
+              (Murugan) is shown as dancing with ecstasy.
             </div>
           </div>
         </div>

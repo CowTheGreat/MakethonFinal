@@ -1,13 +1,19 @@
 import classes from "../components/ThreeSixty.module.css";
 
-function ThreeSixty() {
+function ThreeSixty(props) {
   return (
-    <div className="tourContainer">
-      <iframe
-        src="https://kuula.co/share/collection/7cJsq?logo=1&info=1&fs=1&vr=0&sd=1&initload=0&autop=5&thumbs=1"
-        className={classes.threeDiframe}
-      ></iframe>
-    </div>
+    <>
+      <div className={classes.pageContainer}>
+        <div className={classes.popUpContainer}>
+          <div className="tourContainer">
+            <iframe
+              src={props.ariframe}
+              className={classes.threeDiframe}
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

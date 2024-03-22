@@ -1,9 +1,38 @@
 .threeDiframe {
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 70vh;
 }
 
 .tourContainer {
   display: flex;
   justify-content: center;
+}
+
+.popUpContainer {
+  opacity: 1;
+  padding: 0px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.pageContainer {
+  box-sizing: border-box;
+  width: 80vw;
+  height: 80vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #5c3aa9,
+    #502f9b,
+    #43228c,
+    #230a5c,
+    #1f0854
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 100px; */
+  padding: 130px 75px;
+  opacity: 1;
+  border-radius: 35px;
 }

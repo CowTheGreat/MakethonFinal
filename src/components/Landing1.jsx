@@ -38,7 +38,7 @@ function Landing1() {
               EXPLORE ARCHIVE
             </div>
           </div>
-          <img src={welcomeStatue} className={Classes.welcomeStatue} />
+          {/* <img src={welcomeStatue} className={Classes.welcomeStatue} /> */}
         </div>
       </div>
     </>
