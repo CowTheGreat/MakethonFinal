@@ -1,5 +1,4 @@
 .pageContainer {
-<<<<<<< HEAD
   width: 90vw;
   height: 90vh;
   margin: 0;
@@ -23,78 +22,6 @@
   }
 } */
 
-=======
-    width: 90vw;
-    height: 90vh;
-    margin: 0;
-    bottom: 10px;
-    background-image: linear-gradient(
-      to bottom right,
-      #5c3aa9,
-      #502f9b,
-      #43228c,
-      #230a5c,
-      #1f0854
-    );
-    border-radius: 33px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-  
-  .pageBG {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-<<<<<<< HEAD
-  .textContainer {
-    color: white;
-    width: 50%;
-    padding-left: 40px;
-  }
-  
-  .desc {
-    font-size: 18px;
-    margin-bottom: 70px;
-  }
-  
-  .welcome {
-    font-size: 36px;
-    font-weight: 600;
-    font-family: "Gill Sans", sans-serif;
-    margin-bottom: 20px;
-  }
-  
-  .archiveButton {
-    background-color: azure;
-    height: 60px;
-    width: 200px;
-    border-radius: 25px;
-    color: rgb(19, 7, 46);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 545;
-    border: 0 50px;
-  }
-  
-  .welcomeStatue {
-    height: 100%;
-    width: 50%;
-    padding-left: 150px;
-  }
-  
-  .pageBG {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-=======
->>>>>>> 92607b305120ed0a5f8de561037feccad85d4279
 .textContainer {
   color: white;
   width: 50%;
@@ -184,4 +111,3 @@
   padding: 5px 7px;
   display: none;
 }
->>>>>>> 7167a2be18dfb17e7a8adbd5030e4d733444f15f
