@@ -2,7 +2,7 @@ import classes from "../components/ThreeSixty.module.css";
 
 function ThreeSixty(props) {
   return (
-    <>
+    <div className={classes.pageBG}>
       <div className={classes.pageContainer}>
         <div className={classes.popUpContainer}>
           <div className="tourContainer">
@@ -13,7 +13,7 @@ function ThreeSixty(props) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

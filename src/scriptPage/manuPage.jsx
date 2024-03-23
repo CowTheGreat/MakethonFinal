@@ -1,19 +1,18 @@
-import React,{useState} from 'react';
+import React, { useState } from "react";
 
-import styles from './manuPage.module.css'
+import styles from "./manuPage.module.css";
 
 // import manuscriptPic from '../assets/palmleaf1.png'
 
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from "@mui/icons-material/Search";
 
-import {data} from './data.js'
+import { data } from "./data.js";
 
-import ManuPopUp from './manuPopUP.jsx'
+import ManuPopUp from "./manuPopUP.jsx";
 
-import ManuPopUp1 from './manuPopUP1.jsx'
+import ManuPopUp1 from "./manuPopUP1.jsx";
 
- function manuPage() {
-  
+function manuPage() {
   const [modal, setModal] = useState(false);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -39,69 +38,52 @@ import ManuPopUp1 from './manuPopUP1.jsx'
     document.body.classList.remove("active-modal");
   }
 
-  
-
-
-
-  const [names,setNames] = useState(data);
+  const [names, setNames] = useState(data);
 
   // function handleNameChange(event){
   //   setsearch(event.target.value);
   // }
   // console.log(search);
-  const filterNames = e =>{
-    const search = e.target.value.toLowerCase()
-    const filteredNames = data.filter(names => names.title.toLowerCase().includes(search))
-    setNames(filteredNames)
-  }
+  const filterNames = (e) => {
+    const search = e.target.value.toLowerCase();
+    const filteredNames = data.filter((names) =>
+      names.title.toLowerCase().includes(search)
+    );
+    setNames(filteredNames);
+  };
 
   return (
-
-
-    
     <div>
-    {modal && (
-      <div className={styles.modal}>
-        <div onClick={toggleModal} >
-          <ManuPopUp  />
+      {modal && (
+        <div className={styles.modal}>
+          <div onClick={toggleModal}>
+            <ManuPopUp />
+          </div>
+          <button className={styles.closeModal} onClick={toggleModal}></button>
         </div>
-        <button className={styles.closeModal} onClick={toggleModal}></button>
-                                                            
-      </div>
-    )}
-    
-    
+      )}
 
-    <div className={styles.pageBG}>
-      <div className={styles.pageContainer}>
-      
-        
+      <div className={styles.pageBG}>
+        <div className={styles.pageContainer}>
           <div className={styles.searchBar}>
-            
-            <input  onChange={(e) => filterNames(e)} 
-                    placeholder='Search' 
-                    type='text'
-           ></input>
-           <div className={styles.searchIcon}>
-              <SearchIcon/>
+            <input
+              onChange={(e) => filterNames(e)}
+              placeholder="Search"
+              type="text"
+            ></input>
+            <div className={styles.searchIcon}>
+              <SearchIcon />
             </div>
           </div>
-          <div  onClick={toggleModal} className={tileClasses}>
-            {names.map(name =>{
-              return <p className={styles.searchResult}>{name.title}</p>
-            })
-            
-            }
-            
-            
+          <div onClick={toggleModal} className={tileClasses}>
+            {names.map((name) => {
+              return <p className={styles.searchResult}>{name.title}</p>;
+            })}
           </div>
-
+        </div>
       </div>
-      </div>
-      
     </div>
-     
-  )
+  );
 }
 
 export default manuPage;

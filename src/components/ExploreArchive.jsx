@@ -24,7 +24,7 @@ function ExploreArchive() {
                 </div>
               </div>
             </Link>
-            <Link to="/threesixty">
+            <Link to="/sculptures">
               <div class="flip-card" id="card2">
                 <div class="flip-card-inner">
                   <div class="flip-card-front"></div>
@@ -54,7 +54,7 @@ function ExploreArchive() {
             </Link>
           </div>
           <div class="earow">
-            <Link to="/sculptures">
+            <Link to="/threesixty">
               <div class="flip-card" id="card3">
                 <div class="flip-card-inner">
                   <div class="flip-card-front"></div>

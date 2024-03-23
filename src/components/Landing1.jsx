@@ -2,6 +2,7 @@ import Classes from "../components/Landing1.module.css";
 import welcomeStatue from "../assets/welcomeStatue.png";
 import ExploreArchive from "../components/ExploreArchive";
 import { useState } from "react";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 function Landing1() {
   const [modal, setModal] = useState(false);
@@ -37,6 +38,9 @@ function Landing1() {
             </div>
             <div onClick={toggleModal} className={Classes.archiveButton}>
               EXPLORE ARCHIVE
+              <div className={Classes.expIcon}>
+                <ArrowForwardIcon />
+              </div>
             </div>
           </div>
           <img src={welcomeStatue} className={Classes.welcomeStatue} />

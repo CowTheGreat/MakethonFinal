@@ -36,3 +36,9 @@
   opacity: 1;
   border-radius: 35px;
 }
+
+.pageBG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
