@@ -1,7 +1,7 @@
-import Classes from "../components/LandingManuscript.module.css";
+import Classes from "../components/LandingTour.module.css";
 import threesixty from "../assets/360tour.jpeg";
-import manuscript1 from "../assets/manuscript_1.jpeg";
-import manuscript2 from "../assets/manuscript_2.jpeg";
+import manuscript1 from "../assets/threesixtyimg1.jpeg";
+import manuscript2 from "../assets/threesixtyimg2.jpg";
 import manuscript3 from "../assets/manuscript_3.jpeg";
 import { Link } from "react-router-dom";
 
@@ -18,12 +18,13 @@ function LandingTour() {
         <div className={Classes.bottomContainer}>
           <div className={Classes.descBox}>
             <div className={Classes.desc}>
-              What is the oldest manuscript of India?<br></br>Pandit Jawaharlal
-              Nehru, the first Prime Minister of India was aware of the
-              intellectual heritage of India took a personal interest in
-              ensuring that the Gilgit manuscripts, to date India's oldest
-              manuscripts from the sixth century A.D., were brought from Kashmir
-              to the National Archives of India to be preserved for
+              In the 360 virtual tour of temples, you can explore the stunning
+              architecture and serene surroundings while learning about the rich
+              cultural significance of each temple. As you navigate through the
+              virtual tour, labels will indicate the areas where famous
+              festivals are celebrated, offering insights into the vibrant
+              traditions and celebrations that take place in these sacred
+              spaces.
             </div>
             <Link to="/threesixty">
               <div className={Classes.button}>Learn More</div>
@@ -34,9 +35,6 @@ function LandingTour() {
           </div>
           <div className={Classes.bottomImages}>
             <img src={manuscript2} className={Classes.subImage} />
-          </div>
-          <div className={Classes.bottomImages}>
-            <img src={manuscript3} className={Classes.subImage} />
           </div>
         </div>
       </div>

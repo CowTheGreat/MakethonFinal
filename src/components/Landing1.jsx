@@ -29,6 +29,7 @@ function Landing1() {
       <div className={Classes.pageBG}>
         <div className={Classes.pageContainer}>
           <div className={Classes.textContainer}>
+            <div className={Classes.arc}>#Archive.net</div>
             <div className={Classes.welcome}>WELCOME TO ARCHIVE</div>
             <div className={Classes.desc}>
               WE ARCHIVE AND DIGITALIZE ALL KINDS OF ANCIENT MANUSCRIPTS AND

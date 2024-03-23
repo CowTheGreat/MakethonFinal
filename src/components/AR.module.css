@@ -13,7 +13,6 @@
 .pageContainer {
   width: 90vw;
   height: 90vh;
-  margin-top: 100px;
   bottom: 10px;
   background-image: linear-gradient(
     to bottom right,
@@ -36,4 +35,142 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flexcontainer {
+  width: 100%;
+  height: auto;
+}
+.flexcontainer1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox11 {
+  margin-top: 10px;
+  width: 90%;
+  height: 200px;
+  background-image: url(../assets/title.png);
+  margin-bottom: 5px;
+  margin-left: 65px;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.flexbox1 {
+  margin-top: 10px;
+  width: 200px;
+  height: 400px;
+  background-image: url("https://th.bing.com/th/id/OIP.fMq_pmNJ59arMy1ZZtMyCwHaI0?rs=1&pid=ImgDetMain");
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "sans-serif";
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+.flexbox2 {
+  margin-top: 10px;
+  width: 200px;
+  height: 400px;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/641/799/desktop-wallpaper-best-5-tanjore-on-hip-kovil-thumbnail.jpg");
+  margin-bottom: 5px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "sans-serif";
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+.flexbox3 {
+  margin-top: 10px;
+  width: 200px;
+  height: 400px;
+  background-image: url("https://www.trawell.in/admin/images/upload/705432257Vaikunta_Perumal_Temple_Main.jpg");
+  margin-bottom: 5px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "sans-serif";
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+.flexbox4 {
+  margin-top: 10px;
+  width: 200px;
+  height: 400px;
+  background-image: url("https://avanigo.com/wp-content/uploads/2021/01/The-Scenic-Shore-Temple-of-Mahabalipuram.jpg");
+  margin-bottom: 5px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "sans-serif";
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.text {
+  margin: 0;
+  background-color: white;
+  opacity: 50%;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 200px;
+  /* z-index: -1; */
+}
+
+.modal,
+.overlay {
+  background-color: rgba(0, 0, 0, 0.364);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  /* display: none; */
+}
+
+.dataResult :hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.993);
+  transition: 0.1s;
+  transform: scale(1.03);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.disabled_hover {
+  transform: none;
+  box-shadow: none;
 }

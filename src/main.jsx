@@ -51,6 +51,30 @@ const router = createBrowserRouter([
           <ThreeSixty ariframe="https://kuula.co/share/collection/7cccv?logo=1&info=1&fs=1&vr=0&sd=1&initload=0&autop=5&thumbs=1" />
         ),
       },
+      {
+        path: "/ar1",
+        element: (
+          <ThreeSixty ariframe="https://mywebar.com/p/Project_2_5r3lwrnbvd" />
+        ),
+      },
+      {
+        path: "/ar2",
+        element: (
+          <ThreeSixty ariframe="https://mywebar.com/p/Project_1_p98b8jllne" />
+        ),
+      },
+      {
+        path: "/ar3",
+        element: (
+          <ThreeSixty ariframe="https://mywebar.com/p/Project_2_a4w8slg0zh" />
+        ),
+      },
+      {
+        path: "/ar4",
+        element: (
+          <ThreeSixty ariframe="https://mywebar.com/p/Project_2_xq8nom4lcl" />
+        ),
+      },
     ],
   },
 ]);

@@ -16,7 +16,7 @@ function MainHeader() {
           <Link to="/manuscripts">Manuscripts</Link>
           <Link to="/threesixty">360 Tour</Link>
           <Link to="/ar">AR</Link>
-          <Link to="/research">Research</Link>
+          <Link to="/research">Explore</Link>
           <Link to="/suggestions">Suggestions</Link>
         </div>
       </div>
