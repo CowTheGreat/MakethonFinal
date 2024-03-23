@@ -1,7 +1,9 @@
+import ExploreMaps from "../components/ExploreMaps";
+
 function Research() {
   return (
     <>
-      <h1>Gallery</h1>
+      <ExploreMaps />
     </>
   );
 }

@@ -1,46 +1,38 @@
-export const data=[
+export const data = [
   {
-    id:1,
-    title: 'Thirukural'
+    id: 1,
+    title: "Thirukural",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 2,
+    title: "Tholkapiam",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 3,
+    title: "Purananuru",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 4,
+    title: "Cilappatikāram",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 5,
+    title: "Manimekalai",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 6,
+    title: "Civaka Cintamani",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 7,
+    title: "Valayapathi",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
+    id: 8,
+    title: "Kundalakesi",
   },
   {
-    id:2,
-    title: 'Tholkapiam'
-
-  }
+    id: 9,
+    title: "Athichudi",
+  },
 ];

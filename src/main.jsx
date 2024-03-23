@@ -6,7 +6,7 @@ import "./index.css";
 
 import Manuscripts from "./routes/Manuscripts.jsx";
 import Sculptures from "./routes/Sculptures.jsx";
-import Research from "./routes/Research.jsx";
+import Explore from "./routes/Explore.jsx";
 import Suggestions from "./routes/Suggestions.jsx";
 import LandingPage from "./routes/LandingPage.jsx";
 import ThreeSixtyTour from "./routes/ThreeSixtyTour.jsx";
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       { path: "/manuscripts", element: <Manuscripts /> },
       { path: "/sculptures", element: <Sculptures /> },
       { path: "/threesixty", element: <ThreeSixtyTour /> },
-      { path: "/research", element: <Research /> },
+      { path: "/explore", element: <Explore /> },
       { path: "/suggestions", element: <Suggestions /> },
       { path: "/ar", element: <AR /> },
       {
