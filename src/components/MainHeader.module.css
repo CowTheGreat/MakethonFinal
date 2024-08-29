@@ -1,34 +1,88 @@
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100vw;
+  background-color: rgb(19, 7, 46);
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 0 20px; /* Add padding to ensure content does not touch edges */
+  box-sizing: border-box;
+}
+
 .logo {
   display: flex;
   align-items: center;
+  height: 100px;
 }
 
 .navbuttons {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-left: 30vw;
   font-weight: 400;
   font-size: 22px;
+  margin-left: auto; /* Align nav buttons to the right */
 }
 
 a:-webkit-any-link {
   text-decoration: none;
   color: inherit;
 }
-.navbar {
-  display: flex;
-  color: white;
-  width: 100vw;
-  background-color: rgb(19, 7, 46);
-  height: 100px;
-  margin-bottom: 20px;
-}
 
-.logo {
-  height: 100px;
-}
-
-/* a:-webkit-any-link:hover {
+/* Hover Effect */
+a:-webkit-any-link:hover {
   border-bottom: 2px white solid;
-} */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .navbuttons {
+    gap: 30px;
+    font-size: 20px;
+  }
+
+  .navbar {
+    height: 80px;
+  }
+
+  .logo {
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbuttons {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 0 10px;
+  }
+
+  .logo {
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbuttons {
+    font-size: 16px;
+    gap: 15px;
+  }
+
+  .navbar {
+    padding: 0 5px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+}

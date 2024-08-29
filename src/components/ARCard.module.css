@@ -27,27 +27,6 @@
   border-style: solid;
 }
 
-/* .pageContainer {
-  width: 90vw;
-  height: 90vh;
-  bottom: 10px;
-  background-image: linear-gradient(
-    to bottom right,
-    #5c3aa9,
-    #502f9b,
-    #43228c,
-    #230a5c,
-    #1f0854
-  );
-  border-radius: 33px;
-
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  box-shadow: #1f0854 10px;
-  border-style: solid;
-} */
-
 .pageBG {
   display: flex;
   align-items: center;

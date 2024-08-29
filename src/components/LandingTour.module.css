@@ -2,7 +2,6 @@
   width: 90vw;
   height: 90vh;
   margin: 0;
-  bottom: 10px;
   background-image: linear-gradient(
     to bottom right,
     #150638,
@@ -12,8 +11,6 @@
     #502f9b
   );
   border-radius: 33px;
-  /* display: flex;
-    justify-content: center; */
   margin-bottom: 50px;
 }
 
@@ -28,10 +25,9 @@
   font-size: 36px;
   font-weight: 600;
   font-family: "Gill Sans", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .image {
@@ -84,4 +80,105 @@
 
 .desc {
   font-size: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .image {
+    width: 80%;
+  }
+
+  .descBox {
+    width: 50%;
+  }
+
+  .button {
+    width: 100px;
+    height: 35px;
+  }
+
+  .bottomImages {
+    width: 25%;
+  }
+
+  .subImage {
+    height: 180px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pageContainer {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .image {
+    width: 70%;
+  }
+
+  .imgContainer {
+    height: auto; /* Allow container height to adjust */
+  }
+
+  .bottomContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .descBox {
+    width: 60%;
+  }
+
+  .button {
+    width: 80px;
+    height: 30px;
+  }
+
+  .bottomImages {
+    width: 30%;
+  }
+
+  .subImage {
+    height: 160px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .descBox {
+    width: 100%;
+  }
+
+  .button {
+    width: 70px;
+    height: 25px;
+  }
+
+  .bottomImages {
+    width: 40%;
+  }
+
+  .subImage {
+    height: 140px;
+    width: 200px;
+  }
 }

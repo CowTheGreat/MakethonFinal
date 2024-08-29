@@ -1,13 +1,17 @@
 #cards-container {
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  padding: 20px;
 }
 
-.card {
-  width: 400px;
+.card,
+.flip-card {
+  width: 100%;
+  max-width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +23,7 @@
   transition: all ease 0.2s;
   margin: 20px;
 }
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -27,64 +32,23 @@
   transition-duration: 1s;
   border-radius: 10px;
 }
-#card1 {
-  background-image: url(https://dtnext-prod.s3.ap-south-1.amazonaws.com/imported/import/Articles/2019/Aug/201908170350382323_Over-25-lakh-pages-of-Tamil-manuscripts-digitised-in-a-year_SECVPF.gif);
-}
-#card2 {
-  background-image: url(https://as1.ftcdn.net/v2/jpg/02/27/74/04/1000_F_227740414_3F3W9USF17vrOIczPVawqpk4PxPhTzBM.jpg);
-}
 
-#card3 {
-  background-image: url(https://i.ndtvimg.com/i/2016-04/golden-temple_650x400_51459941714.jpg);
-}
-#card4 {
-  background-image: url(https://miro.medium.com/v2/resize:fit:1358/0*2Yn259uU5cO44wl6);
-}
-
-.overlay h4 {
-  color: #000;
-  font-size: 15px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  margin-bottom: 20px;
-  font-weight: 800;
-  text-align: center;
-}
+.overlay h4,
 .overlay p {
   color: #000;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
+
 .card:hover .overlay {
   opacity: 1;
 }
+
 .card:hover {
-  /* transform: rotate3d(0, 1, 1, 360deg); */
   transform: rotate(180deg);
 }
 
-.overlay_inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 250px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  border-radius: 20px;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  transition: all ease 0.2s;
-  margin: 20px;
-}
-
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -94,31 +58,54 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  /* background-color: #bbb; */
-  color: black;
-}
-
-/* Style the back side */
 .flip-card-back {
   background-color: rgb(19, 7, 46);
-  /* color: white; */
   opacity: 0.7;
   transform: rotateY(180deg);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  #cards-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card,
+  .flip-card {
+    width: 80%;
+    max-width: 300px;
+    height: 200px;
+  }
+
+  .overlay h4,
+  .overlay p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card,
+  .flip-card {
+    width: 90%;
+    max-width: 250px;
+    height: 180px;
+  }
+
+  .overlay h4,
+  .overlay p {
+    font-size: 10px;
+  }
 }

@@ -3,17 +3,7 @@
   height: 90vh;
   margin: 0;
   bottom: 10px;
-  /* background-image: linear-gradient(
-      to bottom right,
-      #5c3aa9,
-      #502f9b,
-      #43228c,
-      #230a5c,
-      #1f0854
-    ); */
   border-radius: 33px;
-  /* display: flex;
-    justify-content: center; */
   margin-bottom: 50px;
 }
 
@@ -32,28 +22,26 @@
   background-color: white;
   border: 0;
   border-radius: 20px;
-  /* border-top-right-radius: 0px; */
   font-size: 18px;
   padding: 15px 10px;
   height: 30px;
   width: 450px;
-  /* margin: 20px 0px; */
   display: flex;
   justify-content: flex-start;
 }
 
 .searchIcon {
-  /* background-color: white; */
   height: 60px;
   width: 50px;
   display: grid;
   place-items: center;
   color: white;
-  /* margin: 20px 0px; */
 }
+
 input:focus {
   outline: none;
 }
+
 .searchResult {
   border: 1px solid white;
   border-radius: 12px;
@@ -63,11 +51,10 @@ input:focus {
 }
 
 .dataResult :hover {
-  /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.993); */
   transition: 0.2s ease-in-out;
   transform: scale(1.02);
-  /* background-color:rgba(255, 255, 255, 0.1) ; */
 }
+
 .disabled_hover {
   transform: none;
   box-shadow: none;
@@ -97,13 +84,6 @@ input:focus {
   position: fixed;
 }
 
-/* .overlay {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
 .modalContent {
   position: absolute;
   top: 40%;
@@ -123,4 +103,61 @@ input:focus {
   right: 10px;
   padding: 5px 7px;
   display: none;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 1024px) {
+  .searchBar input {
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .searchIcon {
+    height: 50px;
+    width: 40px;
+  }
+
+  .modalContent {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchBar input {
+    width: 250px;
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  .searchIcon {
+    height: 40px;
+    width: 35px;
+  }
+
+  .modalContent {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .searchBar input {
+    width: 200px;
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+
+  .searchIcon {
+    height: 35px;
+    width: 30px;
+  }
+
+  .modalContent {
+    max-width: 300px;
+  }
 }

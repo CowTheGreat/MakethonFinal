@@ -1,7 +1,8 @@
+/* Page Container Styles */
 .pageContainer {
   width: 90vw;
   height: 90vh;
-  bottom: 10px;
+  margin: 0 auto; /* Center the container */
   background-image: linear-gradient(
     to bottom right,
     #150638,
@@ -12,50 +13,55 @@
   );
   border-radius: 33px;
   margin-bottom: 50px;
-  box-shadow: #1f0854 10px;
+  box-shadow: 0 0 10px rgba(31, 8, 84, 0.5); /* Improved box-shadow */
+  display: flex; /* Ensure content inside is centered */
+  align-items: center;
+  justify-content: center;
 }
 
+/* Page Background */
 .pageBG {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Modal and Overlay Styles */
 .modal,
 .overlay {
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   position: fixed;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
 .overlay {
-  background-image: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Modal Content Styles */
 .modalContent {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   line-height: 1.4;
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 3px;
-  max-width: 600px;
-  min-width: 300px;
+  max-width: 90%;
+  width: 500px; /* Set a default width */
+  max-height: 90vh; /* Ensure it fits within viewport */
+  overflow-y: auto; /* Add scroll if content overflows */
 }
 
+/* Close Button Styles */
 .closeModal {
   position: absolute;
   top: 10px;
   right: 10px;
   padding: 5px 7px;
-  display: none;
+  cursor: pointer; /* Indicate clickable area */
+  font-size: 20px; /* Increase font size for better visibility */
 }
